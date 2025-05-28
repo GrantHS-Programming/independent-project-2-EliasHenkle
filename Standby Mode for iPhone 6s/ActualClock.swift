@@ -6,9 +6,15 @@
 //
 import SwiftUI
 struct ActualClock: View{
+    @State var date = Date()
+    var timeFormat: DateFormatter{...}
+        func timeString(date: Date) -> String {
+            let time = timeFormat.string(from: date)
+            return time
+        }
     var body: some View {
     HStack {
-    Text("Welcome to the new view! Bringing ContentView's extensive infrastructure is in progress")
+    Text("\(date)")
             .foregroundColor(Color("darkMode"))
             .navigationBarHidden(true)
     }
