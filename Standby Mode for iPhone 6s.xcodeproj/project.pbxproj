@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F707A17E2C9C815C005769AD /* Standby_Mode_for_iPhone_6sApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F707A17D2C9C815C005769AD /* Standby_Mode_for_iPhone_6sApp.swift */; };
+		F707A1802C9C815C005769AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F707A17F2C9C815C005769AD /* ContentView.swift */; };
+		F707A1822C9C815D005769AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F707A1812C9C815D005769AD /* Assets.xcassets */; };
+		F707A1852C9C815D005769AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F707A1842C9C815D005769AD /* Preview Assets.xcassets */; };
+		F707A18F2C9C815D005769AD /* Standby_Mode_for_iPhone_6sTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F707A18E2C9C815D005769AD /* Standby_Mode_for_iPhone_6sTests.swift */; };
+		F707A1992C9C815D005769AD /* Standby_Mode_for_iPhone_6sUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F707A1982C9C815D005769AD /* Standby_Mode_for_iPhone_6sUITests.swift */; };
+		F707A19B2C9C815D005769AD /* Standby_Mode_for_iPhone_6sUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F707A19A2C9C815D005769AD /* Standby_Mode_for_iPhone_6sUITestsLaunchTests.swift */; };
+		F79E4CB82DDE2A2100DCB45C /* ActualClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79E4CB72DDE2A1500DCB45C /* ActualClock.swift */; };
+		F7A1C3402CC178DD00EC1654 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A1C33F2CC178DD00EC1654 /* ClockView.swift */; platformFilter = ios; };
+		F7A1C3412CC178DD00EC1654 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A1C33F2CC178DD00EC1654 /* ClockView.swift */; };
+		F7A1C3422CC178DD00EC1654 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A1C33F2CC178DD00EC1654 /* ClockView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F707A18B2C9C815D005769AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F707A1722C9C815C005769AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F707A1792C9C815C005769AD;
+			remoteInfo = "Standby Mode for iPhone 6s";
+		};
+		F707A1952C9C815D005769AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F707A1722C9C815C005769AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F707A1792C9C815C005769AD;
+			remoteInfo = "Standby Mode for iPhone 6s";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F707A17A2C9C815C005769AD /* Standby Mode for iPhone 6s.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Standby Mode for iPhone 6s.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F707A17D2C9C815C005769AD /* Standby_Mode_for_iPhone_6sApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Standby_Mode_for_iPhone_6sApp.swift; sourceTree = "<group>"; };
+		F707A17F2C9C815C005769AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F707A1812C9C815D005769AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F707A1842C9C815D005769AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F707A18A2C9C815D005769AD /* Standby Mode for iPhone 6sTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Standby Mode for iPhone 6sTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F707A18E2C9C815D005769AD /* Standby_Mode_for_iPhone_6sTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Standby_Mode_for_iPhone_6sTests.swift; sourceTree = "<group>"; };
+		F707A1942C9C815D005769AD /* Standby Mode for iPhone 6sUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Standby Mode for iPhone 6sUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F707A1982C9C815D005769AD /* Standby_Mode_for_iPhone_6sUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Standby_Mode_for_iPhone_6sUITests.swift; sourceTree = "<group>"; };
+		F707A19A2C9C815D005769AD /* Standby_Mode_for_iPhone_6sUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Standby_Mode_for_iPhone_6sUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F79E4CB72DDE2A1500DCB45C /* ActualClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualClock.swift; sourceTree = "<group>"; };
+		F7A1C33F2CC178DD00EC1654 /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F707A1772C9C815C005769AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F707A1872C9C815D005769AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F707A1912C9C815D005769AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F707A1712C9C815C005769AD = {
+			isa = PBXGroup;
+			children = (
+				F707A17C2C9C815C005769AD /* Standby Mode for iPhone 6s */,
+				F707A18D2C9C815D005769AD /* Standby Mode for iPhone 6sTests */,
+				F707A1972C9C815D005769AD /* Standby Mode for iPhone 6sUITests */,
+				F707A17B2C9C815C005769AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F707A17B2C9C815C005769AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F707A17A2C9C815C005769AD /* Standby Mode for iPhone 6s.app */,
+				F707A18A2C9C815D005769AD /* Standby Mode for iPhone 6sTests.xctest */,
+				F707A1942C9C815D005769AD /* Standby Mode for iPhone 6sUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F707A17C2C9C815C005769AD /* Standby Mode for iPhone 6s */ = {
+			isa = PBXGroup;
+			children = (
+				F79E4CB72DDE2A1500DCB45C /* ActualClock.swift */,
+				F707A17D2C9C815C005769AD /* Standby_Mode_for_iPhone_6sApp.swift */,
+				F7A1C33F2CC178DD00EC1654 /* ClockView.swift */,
+				F707A17F2C9C815C005769AD /* ContentView.swift */,
+				F707A1812C9C815D005769AD /* Assets.xcassets */,
+				F707A1832C9C815D005769AD /* Preview Content */,
+			);
+			path = "Standby Mode for iPhone 6s";
+			sourceTree = "<group>";
+		};
+		F707A1832C9C815D005769AD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F707A1842C9C815D005769AD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F707A18D2C9C815D005769AD /* Standby Mode for iPhone 6sTests */ = {
+			isa = PBXGroup;
+			children = (
+				F707A18E2C9C815D005769AD /* Standby_Mode_for_iPhone_6sTests.swift */,
+			);
+			path = "Standby Mode for iPhone 6sTests";
+			sourceTree = "<group>";
+		};
+		F707A1972C9C815D005769AD /* Standby Mode for iPhone 6sUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F707A1982C9C815D005769AD /* Standby_Mode_for_iPhone_6sUITests.swift */,
+				F707A19A2C9C815D005769AD /* Standby_Mode_for_iPhone_6sUITestsLaunchTests.swift */,
+			);
+			path = "Standby Mode for iPhone 6sUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F707A1792C9C815C005769AD /* Standby Mode for iPhone 6s */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F707A19E2C9C815D005769AD /* Build configuration list for PBXNativeTarget "Standby Mode for iPhone 6s" */;
+			buildPhases = (
+				F707A1762C9C815C005769AD /* Sources */,
+				F707A1772C9C815C005769AD /* Frameworks */,
+				F707A1782C9C815C005769AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Standby Mode for iPhone 6s";
+			productName = "Standby Mode for iPhone 6s";
+			productReference = F707A17A2C9C815C005769AD /* Standby Mode for iPhone 6s.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F707A1892C9C815D005769AD /* Standby Mode for iPhone 6sTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F707A1A12C9C815D005769AD /* Build configuration list for PBXNativeTarget "Standby Mode for iPhone 6sTests" */;
+			buildPhases = (
+				F707A1862C9C815D005769AD /* Sources */,
+				F707A1872C9C815D005769AD /* Frameworks */,
+				F707A1882C9C815D005769AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F707A18C2C9C815D005769AD /* PBXTargetDependency */,
+			);
+			name = "Standby Mode for iPhone 6sTests";
+			productName = "Standby Mode for iPhone 6sTests";
+			productReference = F707A18A2C9C815D005769AD /* Standby Mode for iPhone 6sTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F707A1932C9C815D005769AD /* Standby Mode for iPhone 6sUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F707A1A42C9C815D005769AD /* Build configuration list for PBXNativeTarget "Standby Mode for iPhone 6sUITests" */;
+			buildPhases = (
+				F707A1902C9C815D005769AD /* Sources */,
+				F707A1912C9C815D005769AD /* Frameworks */,
+				F707A1922C9C815D005769AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F707A1962C9C815D005769AD /* PBXTargetDependency */,
+			);
+			name = "Standby Mode for iPhone 6sUITests";
+			productName = "Standby Mode for iPhone 6sUITests";
+			productReference = F707A1942C9C815D005769AD /* Standby Mode for iPhone 6sUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F707A1722C9C815C005769AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					F707A1792C9C815C005769AD = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					F707A1892C9C815D005769AD = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = F707A1792C9C815C005769AD;
+					};
+					F707A1932C9C815D005769AD = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = F707A1792C9C815C005769AD;
+					};
+				};
+			};
+			buildConfigurationList = F707A1752C9C815C005769AD /* Build configuration list for PBXProject "Standby Mode for iPhone 6s" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F707A1712C9C815C005769AD;
+			productRefGroup = F707A17B2C9C815C005769AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F707A1792C9C815C005769AD /* Standby Mode for iPhone 6s */,
+				F707A1892C9C815D005769AD /* Standby Mode for iPhone 6sTests */,
+				F707A1932C9C815D005769AD /* Standby Mode for iPhone 6sUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F707A1782C9C815C005769AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F707A1852C9C815D005769AD /* Preview Assets.xcassets in Resources */,
+				F707A1822C9C815D005769AD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F707A1882C9C815D005769AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F707A1922C9C815D005769AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F707A1762C9C815C005769AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F707A1802C9C815C005769AD /* ContentView.swift in Sources */,
+				F7A1C3402CC178DD00EC1654 /* ClockView.swift in Sources */,
+				F79E4CB82DDE2A2100DCB45C /* ActualClock.swift in Sources */,
+				F707A17E2C9C815C005769AD /* Standby_Mode_for_iPhone_6sApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F707A1862C9C815D005769AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F707A18F2C9C815D005769AD /* Standby_Mode_for_iPhone_6sTests.swift in Sources */,
+				F7A1C3412CC178DD00EC1654 /* ClockView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F707A1902C9C815D005769AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F707A1992C9C815D005769AD /* Standby_Mode_for_iPhone_6sUITests.swift in Sources */,
+				F7A1C3422CC178DD00EC1654 /* ClockView.swift in Sources */,
+				F707A19B2C9C815D005769AD /* Standby_Mode_for_iPhone_6sUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F707A18C2C9C815D005769AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F707A1792C9C815C005769AD /* Standby Mode for iPhone 6s */;
+			targetProxy = F707A18B2C9C815D005769AD /* PBXContainerItemProxy */;
+		};
+		F707A1962C9C815D005769AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F707A1792C9C815C005769AD /* Standby Mode for iPhone 6s */;
+			targetProxy = F707A1952C9C815D005769AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F707A19C2C9C815D005769AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F707A19D2C9C815D005769AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F707A19F2C9C815D005769AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Standby Mode for iPhone 6s/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ehco.Standby-Mode-for-iPhone-6s";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F707A1A02C9C815D005769AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Standby Mode for iPhone 6s/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ehco.Standby-Mode-for-iPhone-6s";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F707A1A22C9C815D005769AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ehco.Standby-Mode-for-iPhone-6sTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Standby Mode for iPhone 6s.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Standby Mode for iPhone 6s";
+			};
+			name = Debug;
+		};
+		F707A1A32C9C815D005769AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ehco.Standby-Mode-for-iPhone-6sTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Standby Mode for iPhone 6s.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Standby Mode for iPhone 6s";
+			};
+			name = Release;
+		};
+		F707A1A52C9C815D005769AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ehco.Standby-Mode-for-iPhone-6sUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = "Standby Mode for iPhone 6s";
+			};
+			name = Debug;
+		};
+		F707A1A62C9C815D005769AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ehco.Standby-Mode-for-iPhone-6sUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = "Standby Mode for iPhone 6s";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F707A1752C9C815C005769AD /* Build configuration list for PBXProject "Standby Mode for iPhone 6s" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F707A19C2C9C815D005769AD /* Debug */,
+				F707A19D2C9C815D005769AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F707A19E2C9C815D005769AD /* Build configuration list for PBXNativeTarget "Standby Mode for iPhone 6s" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F707A19F2C9C815D005769AD /* Debug */,
+				F707A1A02C9C815D005769AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F707A1A12C9C815D005769AD /* Build configuration list for PBXNativeTarget "Standby Mode for iPhone 6sTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F707A1A22C9C815D005769AD /* Debug */,
+				F707A1A32C9C815D005769AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F707A1A42C9C815D005769AD /* Build configuration list for PBXNativeTarget "Standby Mode for iPhone 6sUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F707A1A52C9C815D005769AD /* Debug */,
+				F707A1A62C9C815D005769AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F707A1722C9C815C005769AD /* Project object */;
+}
