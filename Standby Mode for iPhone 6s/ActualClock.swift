@@ -7,16 +7,39 @@
 import SwiftUI
 struct ActualClock: View{
     @State var date = Date()
-    var timeFormat: DateFormatter{...}
-        func timeString(date: Date) -> String {
-            let time = timeFormat.string(from: date)
-            return time
-        }
-    var body: some View {
-    HStack {
-    Text("\(date)")
-            .foregroundColor(Color("darkMode"))
-            .navigationBarHidden(true)
+    var dateFormat: DateFormatter{
+        let formatter = DateFormatter()
+        formatter.timeStyle = .medium
+        return formatter
     }
+    var timeFormat: DateFormatter{
+        let formatter = DateFormatter()
+        formatter.dateStyle = .full
+        return formatter
+    }
+    func timeString(date: Date) -> String {
+        let time = timeFormat.string(from: date)
+        return time
+    }
+    func dateString(date: Date) -> String {
+        let date = dateFormat.string(from: date)
+        return date
+    }
+    var body: some View {
+        VStack(spacing: 10) {
+            Text("\(timeString(date: date))")
+                .foregroundColor(Color("darkMode"))
+                .navigationBarHidden(true)
+                .font(.system(size: 45.0))
+            Text("\(dateString(date: date))")
+                .foregroundColor(Color("darkMode"))
+                .navigationBarHidden(true)
+                .font(.system(size: 100.0))
+        }
+        .onReceive(
+            Timer.publish(every: 1, on: .main, in: .common).autoconnect())
+        { _ in
+            self.date = Date()
+        }
     }
 }
