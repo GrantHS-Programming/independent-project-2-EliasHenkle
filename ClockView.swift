@@ -6,8 +6,8 @@
 //
 
 import SwiftUI
-
 struct ClockView: View{
+    @StateObject private var userInputModel = UserInputModel()
     var width = UIScreen.main.bounds.width
     @State private var uInput: String = ""
     var body: some View{

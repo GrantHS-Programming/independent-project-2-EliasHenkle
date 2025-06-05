@@ -5,6 +5,9 @@
 //  Created by Elias Henkle on 5/21/25.
 //
 import SwiftUI
+class UserInputModel: ObservableObject{
+    @Published var text: String = ""
+}
 struct ActualClock: View{
     @State var date = Date()
     var dateFormat: DateFormatter{
@@ -35,6 +38,9 @@ struct ActualClock: View{
                 .foregroundColor(Color("darkMode"))
                 .navigationBarHidden(true)
                 .font(.system(size: 100.0))
+            Text("b")
+                .foregroundColor(Color("darkMode"))
+                .font(.system(size:40))
             
         }
         .onReceive(
@@ -43,25 +49,4 @@ struct ActualClock: View{
             self.date = Date()
         }
     }
-}
-
-@AssistantEntity(schema: .books.book)
-struct BookEntity {
-    struct Query: EntityStringQuery {
-        func entities(for identifiers: [BookEntity.ID]) async throws -> [BookEntity] { [] }
-        func entities(matching string: String) async throws -> [BookEntity] { [] }
-    }
-    
-    static var defaultQuery = Query()
-    var displayRepresentation: DisplayRepresentation { "Unimplemented" }
-    
-    let id = UUID()
-    
-    var title: String?
-    var seriesTitle: String?
-    var author: String?
-    var genre: String?
-    var purchaseDate: Date?
-    var contentType: <#BookContentType#>?
-    var url: URL?
 }
