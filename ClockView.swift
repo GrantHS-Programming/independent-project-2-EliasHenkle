@@ -7,7 +7,6 @@
 
 import SwiftUI
 struct ClockView: View{
-    @StateObject private var userInputModel = UserInputModel()
     var width = UIScreen.main.bounds.width
     @State private var uInput: String = ""
     var body: some View{
@@ -25,17 +24,6 @@ struct ClockView: View{
                     NavigationLink(destination: ActualClock()){
                     Text("Continue to Interface")
                             .foregroundColor(Color("darkMode"))
-                }
-                TextField("Submit", text: $uInput)
-                        .padding()
-                    Button(action: {
-                        print("User input: \(uInput)")
-                    })
-                    {
-                Text("Submit")
-                        .background(Color.darkMode)
-                        .foregroundColor(.black)
-                        .cornerRadius(5)
                 }
             }
         }

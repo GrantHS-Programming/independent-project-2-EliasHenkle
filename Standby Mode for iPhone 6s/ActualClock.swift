@@ -6,10 +6,14 @@
 //
 import SwiftUI
 class UserInputModel: ObservableObject{
+    @StateObject private var userInputModel = UserInputModel()
     @Published var text: String = ""
 }
 struct ActualClock: View{
+    @State private var showingSheet = false
+    @State private var mainText = ""
     @State var date = Date()
+    @State private var uInput: String = ""
     var dateFormat: DateFormatter{
         let formatter = DateFormatter()
         formatter.timeStyle = .medium
@@ -38,9 +42,39 @@ struct ActualClock: View{
                 .foregroundColor(Color("darkMode"))
                 .navigationBarHidden(true)
                 .font(.system(size: 100.0))
-            Text("b")
-                .foregroundColor(Color("darkMode"))
-                .font(.system(size:40))
+            TextField("Your text will appear here", text: $mainText)
+                            .textFieldStyle(RoundedBorderTextFieldStyle())
+                            .padding()
+
+                        Button("Edit Text in Sheet") {
+                            showingSheet = true
+                        }
+                        .sheet(isPresented: $showingSheet) {
+                            TextInputSheet(text: $mainText)
+                        }
+        }
+        struct TextInputSheet: View{
+            @Binding var text: String
+            @Environment(\.dismiss) var dismiss
+            var body some View{
+                NavigationView {
+                           VStack {
+                               TextField("Type something...", text: $text)
+                                   .textFieldStyle(RoundedBorderTextFieldStyle())
+                                   .padding()
+
+                               Spacer()
+                           }
+                           .navigationTitle("Enter Text")
+                           .toolbar {
+                               ToolbarItem(placement: .confirmationAction) {
+                                   Button("Done") {
+                                       dismiss()
+                                   }
+                               }
+                           }
+                       }
+            }
             
         }
         .onReceive(
